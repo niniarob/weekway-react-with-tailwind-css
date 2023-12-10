@@ -10,7 +10,7 @@ const NavBar = () => {
     }
     return(
         <div className="w-full min-h-[50px] flex justify-between items-center  absolute z-10 text-white bg-gray-700/80">
-            <ul className="hidden sm:flex px-4">
+            <ul className="hidden md:flex px-4">
                 <li>
                     <a href="/">Home</a>
                 </li>
@@ -31,7 +31,7 @@ const NavBar = () => {
                 <FaInstagram className="mx-4"/>
             </div>
             {/* Hamburger Icon */}
-            <div onClick={handleNav} className="sm:hidden z-10">
+            <div onClick={handleNav} className="md:hidden z-10">
                 <FaBars size={20} className="mr-4 cursor-pointer"/>
             </div>
             {/* Mobile Menu */}
