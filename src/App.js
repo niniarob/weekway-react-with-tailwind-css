@@ -6,10 +6,11 @@ import Activities from "./components/Activities";
 import Booking  from "./components/Booking";
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <>
     <TopBar/>
     <NavBar/>
     <Hero/>
@@ -17,7 +18,8 @@ function App() {
     <Booking/>
     <Gallery/>
     <Contact/>
-    </div>
+    <Footer/>
+    </>
   );
 }
 
