@@ -7,13 +7,15 @@ import Booking  from "./components/Booking";
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import VideoBg from'./video/video.mp4';
 
 function App() {
+  const VideoUrl = VideoBg
   return (
     <>
     <TopBar/>
     <NavBar/>
-    <Hero/>
+    <Hero videoUrl={VideoUrl} />
     <Activities/>
     <Booking/>
     <Gallery/>
