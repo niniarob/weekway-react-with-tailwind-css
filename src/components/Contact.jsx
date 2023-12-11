@@ -7,7 +7,7 @@ const Contact = () => {
             <p className="text-center text-gray-700 py-2">We're standing by!</p>
             <div className="grid md:grid-cols-2">
                 <img 
-                className="w-full md:h-full object-cover p-2 max-h-[500px] h-[200px]"
+                className="w-full md:h-full object-cover p-2 max-h-[500px] h-[200px] border-white shadow-lg"
                 src="https://cdn.onekindesign.com/wp-content/uploads/2019/06/Contemporary-Resort-Inspired-Home-SAOTA-Architects-01-1-Kindesign.jpg" 
                 alt="/" 
                 />
