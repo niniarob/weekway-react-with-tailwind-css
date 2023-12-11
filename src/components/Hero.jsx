@@ -1,19 +1,10 @@
 import React from "react";
-import ReactPlayer from 'react-player';
 
-
-const Hero = ({ videoUrl }) => {
+const Hero = () => {
     return(
-        <div className="w-full h-[90vh] ">
-            <ReactPlayer
-              url={videoUrl}
-              controls={false}
-              loop={true}
-              playing={true}
-              muted
-              playsinline
-              width="100%"
-              height="auto"
+        <div className="w-full h-[90vh]">
+            <img src="https://www.remotelands.com/travelogues/app/uploads/2018/03/four-seasons-bali-renovation-01-1.jpg"alt="/"
+            className="w-full h-full object-cover"
             />
         <div className="max-w-[1140px] m-auto">
             <div className="absolute top-[40%] w-full md:[50%] max-w-[600px] h-full flex flex-col text-white p-4">
